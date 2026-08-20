@@ -1,0 +1,13 @@
+{
+  "name": "ascent-update-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Serves latest-version info and installer downloads for Ascent Compliance OS (deployed on Render).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
