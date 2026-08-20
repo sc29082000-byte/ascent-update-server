@@ -1,6 +1,6 @@
 {
-  "version": "0.2.0",
-  "exeFileName": "Ascent Compliance OS Setup 0.2.0.exe",
+  "version": "0.2.1",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.1/Ascent.Compliance.OS.Setup.0.2.1.exe",
   "apkFileName": null,
-  "notes": "Initial release on the new update server."
+  "notes": "What's new in this update:\n- In-app updates now run through our own update server instead of Firebase — faster, more reliable version checks.\n- Added a dedicated Updates page (Home > Updates, or the refresh icon in the top bar) to check your version, see what changed, and install with a visible download progress bar.\n- GSTR-2B Tally import: confirmed suppliers missing from Tally are auto-created as ledgers under Sundry Creditors during import, using the GSTIN on the invoice."
 }
