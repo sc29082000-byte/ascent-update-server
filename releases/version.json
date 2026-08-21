@@ -1,6 +1,6 @@
 {
-  "version": "0.2.6",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.6/Ascent.Compliance.OS.Setup.exe",
+  "version": "0.2.7",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.7/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Minor: Dark mode colours fixed."
+  "notes": "UI fix."
 }
