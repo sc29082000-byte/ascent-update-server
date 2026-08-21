@@ -1,6 +1,6 @@
 {
-  "version": "0.2.5",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.5/Ascent.Compliance.OS.Setup.0.2.5.exe",
+  "version": "0.2.6",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.6/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Minor: fixed the in-app updater itself — it now points to a live, working server (v0.2.4 shipped pointing nowhere). Update checks will work correctly from this version onward."
+  "notes": "Minor: Dark mode colours fixed."
 }
