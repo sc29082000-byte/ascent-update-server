@@ -1,6 +1,6 @@
 {
-  "version": "0.2.7",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.7/Ascent.Compliance.OS.Setup.exe",
+  "version": "0.2.8",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.8/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "UI fix."
+  "notes": "GSTR-1 Tally Import fixes:\n- Upload accepts both .zip (as downloaded from the portal) and plain .json — no need to unzip first.\n- Multiple months can be selected at once and combine into one preview, same as GSTR-2B.\n- Entry Type now correctly shows \"Sales\" instead of \"Purchase\" for GSTR-1 rows.\n- \"Supplier\" column renamed to \"Buyer\" for GSTR-1, with a note explaining why it sometimes shows only the GSTIN (the portal's own GSTR-1 data doesn't include a buyer name).\n- New ledgers for GSTR-1 correctly create under Sundry Debtors.\n\nOther fixes:\n- Ledger pickers in the Preview Grid are now always-editable inputs — no more double-click needed, and a ledger can be changed again anytime.\n- Added pacing between vouchers sent to Tally (GST import, Bank Auto-Booking, Journal Entry) to reduce random Tally crashes during large batches."
 }
