@@ -1,6 +1,6 @@
 {
-  "version": "0.2.8",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.8/Ascent.Compliance.OS.Setup.exe",
+  "version": "0.2.9",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.9/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-1 Tally Import fixes:\n- Upload accepts both .zip (as downloaded from the portal) and plain .json — no need to unzip first.\n- Multiple months can be selected at once and combine into one preview, same as GSTR-2B.\n- Entry Type now correctly shows \"Sales\" instead of \"Purchase\" for GSTR-1 rows.\n- \"Supplier\" column renamed to \"Buyer\" for GSTR-1, with a note explaining why it sometimes shows only the GSTIN (the portal's own GSTR-1 data doesn't include a buyer name).\n- New ledgers for GSTR-1 correctly create under Sundry Debtors.\n\nOther fixes:\n- Ledger pickers in the Preview Grid are now always-editable inputs — no more double-click needed, and a ledger can be changed again anytime.\n- Added pacing between vouchers sent to Tally (GST import, Bank Auto-Booking, Journal Entry) to reduce random Tally crashes during large batches."
+  "notes": "Fixed reversed Debit/Credit entries for GST vouchers:\n- Both Purchase (GSTR-2B) and Sales (GSTR-1) vouchers were booking with the wrong side as Debit/Credit in Tally — now fixed to use Tally's real native sign convention.\n- Voucher No. is now set to the invoice number for GST imports, instead of leaving Tally to auto-number.\n\nNew:\n- \"Recheck Duplicates Against Tally\" button on GSTR-1 and GSTR-2B Tally Import — clears a stale \"Duplicate Invoice\" flag when the earlier voucher was deleted directly in Tally, without needing to re-upload the file.\n\nImportant: any vouchers imported before this update may have Debit/Credit reversed — please check and re-import if needed."
 }
