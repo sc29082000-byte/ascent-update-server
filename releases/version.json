@@ -1,6 +1,6 @@
 {
-  "version": "0.2.12",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.12/Ascent.Compliance.OS.Setup.exe",
+  "version": "0.2.13",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.13/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Depreciation (as per Income Tax) — Analysis Automation Tool (new): asset-wise previous-year full/half-rate reverse-engineering reconciled against Tally's actual figures, a fresh independent 180-day check for every current-year addition, manual category/treatment overrides, a per-asset checkpoint showing whether a depreciation entry is already matched in Tally (with a single-asset \"Pass Entry\" action for anything missing), one-click journal booking to Tally, and an Excel report export.\n\nLicense emails now send via Gmail SMTP with a redesigned, cleaner template.\n\nSeveral real Tally connectivity fixes: more reliable data reads under Tally's period/session quirks, and a fix for a rare Tally crash under rapid back-to-back requests."
+  "notes": "Clients — bulk import from Excel is now available: download a ready-to-fill import template (correct columns, one worked example row), fill in as many clients as needed, and import in one go. Existing clients are matched by GSTIN, so re-importing the same sheet safely updates them instead of creating duplicates, and any row with a problem (missing name, invalid GSTIN/PAN, etc.) is reported individually without blocking the rest of the sheet."
 }
