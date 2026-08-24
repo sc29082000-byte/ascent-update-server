@@ -1,6 +1,6 @@
 {
-  "version": "0.2.13",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.13/Ascent.Compliance.OS.Setup.exe",
+  "version": "0.2.14",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v0.2.14/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Clients — bulk import from Excel is now available: download a ready-to-fill import template (correct columns, one worked example row), fill in as many clients as needed, and import in one go. Existing clients are matched by GSTIN, so re-importing the same sheet safely updates them instead of creating duplicates, and any row with a problem (missing name, invalid GSTIN/PAN, etc.) is reported individually without blocking the rest of the sheet."
+  "notes": "Know Your Tally Ledger — minor but useful additions:\n\n• Export to Excel: open any ledger and export its full entry list as a clean, print-ready workbook — company name at the top, every voucher with date, type, Dr/Cr, amount, other leg and narration, plus Dr/Cr totals at the bottom.\n\n• Reverse Entry: if a batch of entries has been booked the wrong way round (Debit passed as Credit, or vice versa), open the ledger, select the entries (or filter by Dr/Cr and select all at once), and Reverse Entry will pass the correct inverse entry for each one automatically. Note: it books the correcting entry — it does not delete the original wrong entry. After reversing, open the original entry in Tally and delete it manually so the books stay clean."
 }
