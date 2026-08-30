@@ -1,6 +1,6 @@
 {
-  "version": "2.2.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.2.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.3.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.3.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Sales GST Summary — accuracy fix + Export to Excel:\n\n• Fixed a real overcounting bug: totals could come out several times too high on wide date ranges, caused by Tally's own request-caching bleeding between the month-by-month chunks introduced to avoid the earlier crash. Every voucher is now also deduplicated by its own unique ID before totals are calculated, so counts stay correct even if that happens again.\n\n• Added an \"Export to Excel\" button — the same client-wise Taxable Value / CGST / SGST / IGST / Non-GST Sales breakdown you see on screen, saved as a branded, print-ready workbook with a Totals row at the bottom."
+  "notes": "New: Purchase GST Summary (Input side):\n\n• The counterpart to Sales GST Summary — vendor-wise Taxable Value, CGST, SGST and IGST pulled straight from Tally's Purchase vouchers, with Non-GST purchases called out separately.\n\n• Export to Excel, then a one-click \"Reconcile vs GSTR-2B\" button takes you straight to Reconciliation to match this business's own Input GST against what's actually on GSTR-2B."
 }
