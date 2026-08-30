@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.1.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.1.1",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.1.1/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Tally Suite — reorganized, plus a new Sales GST Summary:\n\n• Tally Suite is now grouped into three sections: Tally GST Services, Tally Bank Statement Services, and Tally Input/Output Services — so the right tool is easier to find at a glance.\n\n• New: Sales GST Summary. Pick a date range and get a client-wise (party-ledger-wise) breakdown of Taxable Value, CGST, SGST and IGST, pulled straight from Tally's own Sales vouchers — no manual export needed. Any sale with no GST ledger on it is called out separately as Non-GST Sales, so nothing gets miscounted.\n\n• Minor polish: sign-in screen layout balance, topbar sizing, and a fixed icon/text overlap on a few input fields."
+  "notes": "Sales GST Summary — fixes:\n\n• Fixed a crash: running the summary over a wide date range could crash Tally itself (\"Memory Access Violation\") — data is now pulled month-by-month behind the scenes instead of in one large request, so it stays reliable no matter how wide a range you pick.\n\n• Works for any company now: the page has its own Company dropdown (every company currently open in Tally) instead of being locked to whichever company the rest of Tally Suite happens to have selected."
 }
