@@ -1,6 +1,6 @@
 {
-  "version": "2.3.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.3.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.4.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.4.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New: Purchase GST Summary (Input side):\n\n• The counterpart to Sales GST Summary — vendor-wise Taxable Value, CGST, SGST and IGST pulled straight from Tally's Purchase vouchers, with Non-GST purchases called out separately.\n\n• Export to Excel, then a one-click \"Reconcile vs GSTR-2B\" button takes you straight to Reconciliation to match this business's own Input GST against what's actually on GSTR-2B."
+  "notes": "Purchase GST Summary — actual GSTR-2B reconciliation:\n\n• New \"Build Purchase Register\" button. The summary is vendor-wise totals — good for a quick check, but GSTR-2B reconciliation matches invoice-by-invoice. This builds the real thing: one row per GST-bearing Purchase voucher, with each vendor's GSTIN looked up from Tally's own ledger master, saved in exactly the format Reconciliation expects — pick that file on the Reconciliation page's Upload step and it matches straight against GSTR-2B."
 }
