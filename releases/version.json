@@ -1,6 +1,6 @@
 {
-  "version": "2.1.1",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.1.1/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.2.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.2.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Sales GST Summary — fixes:\n\n• Fixed a crash: running the summary over a wide date range could crash Tally itself (\"Memory Access Violation\") — data is now pulled month-by-month behind the scenes instead of in one large request, so it stays reliable no matter how wide a range you pick.\n\n• Works for any company now: the page has its own Company dropdown (every company currently open in Tally) instead of being locked to whichever company the rest of Tally Suite happens to have selected."
+  "notes": "Sales GST Summary — accuracy fix + Export to Excel:\n\n• Fixed a real overcounting bug: totals could come out several times too high on wide date ranges, caused by Tally's own request-caching bleeding between the month-by-month chunks introduced to avoid the earlier crash. Every voucher is now also deduplicated by its own unique ID before totals are calculated, so counts stay correct even if that happens again.\n\n• Added an \"Export to Excel\" button — the same client-wise Taxable Value / CGST / SGST / IGST / Non-GST Sales breakdown you see on screen, saved as a branded, print-ready workbook with a Totals row at the bottom."
 }
