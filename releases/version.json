@@ -1,6 +1,6 @@
 {
-  "version": "2.6.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.6.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.7.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.7.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Fix missing GSTINs right from the app — no more switching to Tally:\n\nWhen \"Build Purchase Register\" finds vendors with no GSTIN saved in Tally, a dialog now opens right there listing every one of them. Type each vendor's GSTIN in and Save — it's written straight to that vendor's ledger in Tally (Set/Alter GST Details), same as doing it inside Tally itself. Close the dialog and the register rebuilds automatically, now including the vendors you just fixed."
+  "notes": "New: Company Copy (Tally → Tally):\n\nMove one company's data from this Tally into another — a different company, a fresh install, another machine.\n\n• Export: pick a source company and a date range, and it pulls Groups, Ledgers, Voucher Types and every Voucher for that period into one backup file, named after the client.\n• Import: switch Tally to the target company, refresh the connection, load the backup file, and import — only masters missing in the target are created, every voucher is recreated fresh. A summary shows exactly what was created and flags anything that failed.\n\nNote: Cost Centre categories aren't auto-recreated (a company-wide Tally setting this gateway can't flip remotely) — check that manually if the company uses them."
 }
