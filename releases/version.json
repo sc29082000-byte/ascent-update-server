@@ -1,6 +1,6 @@
 {
-  "version": "2.5.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.5.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.6.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.6.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Fixed: Purchase Register showing no data when uploaded to Reconciliation.\n\nRoot cause: Reconciliation matches invoices by GSTIN, and silently skips any row with a blank one — if a vendor's ledger in Tally has no GSTIN saved under Set/Alter GST Details, every one of that vendor's purchases vanished from the file with no visible reason.\n\n• Purchase GST Summary now tells you exactly which vendors are missing a GSTIN in Tally (and how many invoices were excluded because of it) right after building the register, instead of handing you a file that silently reconciles nothing.\n• Vendor name matching between Tally's vouchers and its ledger master is now whitespace/case-tolerant, so a GSTIN that was saved but missed due to a formatting mismatch is no longer dropped."
+  "notes": "Fix missing GSTINs right from the app — no more switching to Tally:\n\nWhen \"Build Purchase Register\" finds vendors with no GSTIN saved in Tally, a dialog now opens right there listing every one of them. Type each vendor's GSTIN in and Save — it's written straight to that vendor's ledger in Tally (Set/Alter GST Details), same as doing it inside Tally itself. Close the dialog and the register rebuilds automatically, now including the vendors you just fixed."
 }
