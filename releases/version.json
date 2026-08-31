@@ -1,6 +1,6 @@
 {
-  "version": "2.7.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.7.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.8.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.8.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New: Company Copy (Tally → Tally):\n\nMove one company's data from this Tally into another — a different company, a fresh install, another machine.\n\n• Export: pick a source company and a date range, and it pulls Groups, Ledgers, Voucher Types and every Voucher for that period into one backup file, named after the client.\n• Import: switch Tally to the target company, refresh the connection, load the backup file, and import — only masters missing in the target are created, every voucher is recreated fresh. A summary shows exactly what was created and flags anything that failed.\n\nNote: Cost Centre categories aren't auto-recreated (a company-wide Tally setting this gateway can't flip remotely) — check that manually if the company uses them."
+  "notes": "GSTR-2B report now matches the GST portal's own format:\n\n• New \"ITC Available\" and \"ITC Not Available\" FORM SUMMARY sheets — category-wise (B2B Invoices, Debit notes, ECO Documents, Reverse Charge, Credit notes net-off) with GSTR-3B table references, same structure as the portal's own download.\n• New detail sheets: B2B, B2BA (amendments), B2B-CDNR (credit/debit notes), B2B-CDNRA, ECO — with GSTIN, invoice/document details, tax heads, ITC Availability and Amendment flags.\n• ECO (e-commerce operator, Section 9(5)) invoices are now tracked as their own category instead of being lumped into B2B."
 }
