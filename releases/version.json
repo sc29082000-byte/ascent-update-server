@@ -1,6 +1,6 @@
 {
-  "version": "2.9.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.9.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.10.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.10.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Login screen and status-color polish:\n\n• Login screen no longer stretches into a huge empty void on wide/maximized windows — the split panel is now capped and centered.\n• Fixed password/confirm-password fields showing a redundant dot placeholder.\n• Retuned the status-badge palette (Ready, Missing, GST Mismatch, Duplicate, Warning, Error, Imported) to sit with the app's navy/gold brand instead of generic template pastels — and fixed \"GST Mismatch\" and \"Error\" (and \"Missing\"/\"Warning\") having near-identical colors that made two different outcomes hard to tell apart at a glance."
+  "notes": "Audit Suite overhaul:\n\n• Fixed the root cause of \"Balance Sheet does not tally\" appearing even when Tally itself is balanced — the app was only matching a ledger's immediate parent group, so anything under a custom/nested sub-group silently dropped out of the totals. Now walks the full Tally group ancestry.\n• Same fix applied across Ageing, Exceptions, Clause 44, Depreciation and Section 43B.\n• New: Clause 27 (ITC/CENVAT credit availed, utilised, outstanding + prior-period items) — its own tab, KPI summary, and export.\n• Redesigned the Engagement Detail screen: icon tabs, status-pill balance sheet banner, KPI strips.\n• Excel exports are now premium-branded (navy/gold fills, zebra rows, gold totals) instead of plain black-and-white, plus a new \"Export this report\" button on every tab for a standalone single-report file.\n\nNote: re-run \"Pull from Tally\" on existing engagements to get the corrected classification."
 }
