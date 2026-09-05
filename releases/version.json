@@ -1,6 +1,6 @@
 {
-  "version": "2.8.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.8.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.9.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.9.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-2B report now matches the GST portal's own format:\n\n• New \"ITC Available\" and \"ITC Not Available\" FORM SUMMARY sheets — category-wise (B2B Invoices, Debit notes, ECO Documents, Reverse Charge, Credit notes net-off) with GSTR-3B table references, same structure as the portal's own download.\n• New detail sheets: B2B, B2BA (amendments), B2B-CDNR (credit/debit notes), B2B-CDNRA, ECO — with GSTIN, invoice/document details, tax heads, ITC Availability and Amendment flags.\n• ECO (e-commerce operator, Section 9(5)) invoices are now tracked as their own category instead of being lumped into B2B."
+  "notes": "Login screen and status-color polish:\n\n• Login screen no longer stretches into a huge empty void on wide/maximized windows — the split panel is now capped and centered.\n• Fixed password/confirm-password fields showing a redundant dot placeholder.\n• Retuned the status-badge palette (Ready, Missing, GST Mismatch, Duplicate, Warning, Error, Imported) to sit with the app's navy/gold brand instead of generic template pastels — and fixed \"GST Mismatch\" and \"Error\" (and \"Missing\"/\"Warning\") having near-identical colors that made two different outcomes hard to tell apart at a glance."
 }
