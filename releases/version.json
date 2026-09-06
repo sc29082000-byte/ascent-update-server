@@ -1,6 +1,6 @@
 {
-  "version": "2.12.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.12.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.13.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.13.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Purchase/Sales GST Summary: Journal-booked vouchers now counted.\n\nRoot cause of \"0 vendors, 0 vouchers\" in Purchase GST Summary (and the equivalent gap in Sales GST Summary): a business that books purchases/sales through a Journal voucher instead of the dedicated Purchase/Sales voucher type had every one of those vouchers silently excluded.\n\nFixed: a Journal voucher now also counts as a purchase/sale if it carries at least one CGST/SGST/IGST/Cess line — a plain provision/accrual journal has none, so unrelated entries aren't pulled in.\n\nVerified live against a real running Tally instance before this release: Purchase GST Summary went from 0 vendors/0 vouchers to 11 vendors/22 vouchers with correct tax totals; Sales GST Summary went from missing data to 134 clients/220 vouchers."
+  "notes": "Clause 44: correct treatment of Depreciation and Bad Debts (per ICAI's own FAQ).\n\nDepreciation (Section 32) and bad/doubtful debts (Section 36(1)(vii)) must count toward \"Total expenditure during the year\" (Column 2) but must NOT be broken down into the registered/composition/exempt/unregistered columns (3-7). Previously a Depreciation ledger was mis-filed into the \"exempt\" bucket.\n\nNow: Depreciation/bad-debts ledgers are pulled out of the four GST-registration buckets entirely (shown separately as \"Excluded from breakup\"), a new \"Total Expenditure\" figure is reported alongside the bucket breakup, and a manual override still lets the preparer deliberately file such a ledger into a bucket if needed."
 }
