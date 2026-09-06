@@ -1,6 +1,6 @@
 {
-  "version": "2.13.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.13.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.14.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.14.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Clause 44: correct treatment of Depreciation and Bad Debts (per ICAI's own FAQ).\n\nDepreciation (Section 32) and bad/doubtful debts (Section 36(1)(vii)) must count toward \"Total expenditure during the year\" (Column 2) but must NOT be broken down into the registered/composition/exempt/unregistered columns (3-7). Previously a Depreciation ledger was mis-filed into the \"exempt\" bucket.\n\nNow: Depreciation/bad-debts ledgers are pulled out of the four GST-registration buckets entirely (shown separately as \"Excluded from breakup\"), a new \"Total Expenditure\" figure is reported alongside the bucket breakup, and a manual override still lets the preparer deliberately file such a ledger into a bucket if needed."
+  "notes": "Full front-end redesign — Ascent 4.0 \"Final Locked System\".\n\nEvery screen now runs on one locked visual system instead of the old cool-slate/electric-blue theme: three-font stack (Calistoga headings, Inter body, JetBrains Mono data), warm stone-grey base with a terracotta primary accent and per-suite signature colors (GST sky, Tally plum, Audit ochre, Income Tax sage), no dark chrome anywhere in the app.\n\nLogin rebuilt as a single light page (no dark split panel). Home Hub rebuilt as a bento layout with tint-fill suite cards and real icon glyphs. The old flat dark 18-item sidebar is gone, replaced by a light tab strip scoped to whichever suite you're in. Splash screen and app icon updated to match. This is a visual-only release — GST/Tally/Audit engine logic is unchanged (full 68/68 backend test suite passing)."
 }
