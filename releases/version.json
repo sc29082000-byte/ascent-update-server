@@ -1,6 +1,6 @@
 {
-  "version": "2.15.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.15.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.16.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.16.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Full GSTR-9 annual return reconciliation module, added to the GST suite.\n\nNew \"GSTR-9 Workpaper\" tab: upload a period's GSTR-1 JSON, GSTR-2B JSON, or GSTR-3B PDF — each upload supersedes (never silently overwrites) any previous file for that same period. Table 4 (outward supplies) compiled automatically from GSTR-1, month-wise GSTR-1 vs GSTR-3B reconciliation with exceptions flagged, Table 8 (ITC reconciliation) via automatic GSTR-2B-vs-Purchase-Register invoice matching, Table 9 (tax payable vs paid), Section 50 interest calculation, and a DRC-03 voluntary-advisory checker.\n\nThe DRC-03 checker is advisory only — it never files anything or initiates any payment on its own. Export a complete branded Excel workpaper covering all of the above with one click.\n\n148 automated tests covering this module, plus the full existing 68/68 backend suite — all passing."
+  "notes": "CAPTCHA-only GST portal login: GSTR-1, GSTR-2B, GSTR-3B, Table 8A and GSTR-1 PDF downloads now show only a small CAPTCHA popup instead of the full portal window — everything else (login, navigation, JSON/PDF generation) runs automatically in the background, matching how CA software's 'download without OTP' works.\n\nAdded a persistent client-selector dropdown to the top bar so a selected client stays scoped across every module, matching the workflow of established CA practice software."
 }
