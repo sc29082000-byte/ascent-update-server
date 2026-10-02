@@ -1,6 +1,6 @@
 {
-  "version": "2.18.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.18.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.19.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.19.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Fixes: GSTR-1 portal tile-click bug, old-password decrypt crash, a genuine Tally crash from invalid AIS dates in TDS booking, and a second Tally crash in the shared ledger-dropdown fetch (Opening Balance + GST fields together were crashing TallyPrime). TDS booking now verifies each voucher actually landed in Tally instead of trusting a false success.\n\nNew: portal download progress banner + notifications with a live snapshot viewer; Bank-Tally Booking unresolved-ledger review with bulk ledger creation; an Audit Readiness Checklist (Companies Act pre-audit) available inside Audit Engagements and as a standalone Home-page Quick Action; Journal Entry is now Journal / Voucher Import with a Voucher Type picker (Journal, Payment, Receipt, Contra, Sales, Purchase) for manual entry and Excel upload."
+  "notes": "New: GSTR-9 Workbench, the first tile on the Home page. It asks where to save the reports, then takes GSTR-1 zips, GSTR-3B PDFs and GSTR-2B JSON: month-wise reconciliation of books vs GSTR-1, GSTR-3B and GSTR-2B for sales and ITC, a GSTR-9 draft, and four Excel reports (GSTR-1, GSTR-2B, GSTR-3B, GSTR-9 reconciliation) saved straight into the chosen folder."
 }
