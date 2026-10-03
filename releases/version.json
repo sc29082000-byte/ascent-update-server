@@ -1,6 +1,6 @@
 {
-  "version": "2.20.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.20.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.21.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.21.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New: GST Health Checkup inside the GSTR-9 Workbench. As soon as GSTR-1, GSTR-3B and GSTR-2B are uploaded, a scored A4 report from Ascent Advisors LLP is ready: health score and grade, tax at risk with indicative interest, GSTR-1 vs 3B, ITC vs GSTR-2B, Table 6.1 settlement, GSTR-1 filing delays and a prioritised action plan. Save it as PDF straight into the client folder, alongside the four Excel reports."
+  "notes": "GST Health Checkup redesigned for client presentation: a new cover with the Ascent Advisors LLP logo and office address, the logo in page headers and as a background watermark, navy section pages, plain-language verdicts (Matched, Short paid, Excess claimed), area score rings, the GSTR-9 due date with days left, and clearer action-plan cards."
 }
