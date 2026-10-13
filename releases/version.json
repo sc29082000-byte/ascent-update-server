@@ -1,6 +1,6 @@
 {
-  "version": "2.24.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.24.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.24.1",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.24.1/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New look matching the Ascent web tools: cool white and navy with blue and teal, a bold animated Home with a 3D scene, and colour-coded suites. GST Tracker now lets you upload GST clients (GSTIN) or Income Tax clients (PAN) from a CSV or Excel file, fetch their details from the GST portal, and shows QRMP clients by quarter and composition clients on CMP-08, with no blank months."
+  "notes": "Fix: GST Compliance Check and GST Tracker no longer stop with a 'no portal username and password saved' error. A client with a saved login is used by default; if none is saved, the portal window opens and you type the login yourself."
 }
