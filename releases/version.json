@@ -1,6 +1,6 @@
 {
-  "version": "2.23.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.23.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.24.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.24.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New GST Tracker in the GST Suite: a client-by-month grid of GSTR-3B and GSTR-1 status for the current and previous financial year, built only from the GST portal's own filing tables. Each month shows Filed with the portal's filing date, Not on portal, Pending, or Not synced - nothing is estimated."
+  "notes": "New look matching the Ascent web tools: cool white and navy with blue and teal, a bold animated Home with a 3D scene, and colour-coded suites. GST Tracker now lets you upload GST clients (GSTIN) or Income Tax clients (PAN) from a CSV or Excel file, fetch their details from the GST portal, and shows QRMP clients by quarter and composition clients on CMP-08, with no blank months."
 }
