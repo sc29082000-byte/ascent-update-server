@@ -1,6 +1,6 @@
 {
-  "version": "2.21.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.21.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.22.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.22.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GST Health Checkup redesigned for client presentation: a new cover with the Ascent Advisors LLP logo and office address, the logo in page headers and as a background watermark, navy section pages, plain-language verdicts (Matched, Short paid, Excess claimed), area score rings, the GSTR-9 due date with days left, and clearer action-plan cards."
+  "notes": "New look across the whole app: one solid colour for each suite, a colour banner on every page, and a redesigned Home with a live GST Compliance Radar. New GST Compliance Check reads each client's real GSTR-1 and GSTR-3B filing status from the GST portal and flags returns that are not on it."
 }
