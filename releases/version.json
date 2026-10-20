@@ -1,6 +1,6 @@
 {
-  "version": "2.24.1",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.24.1/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.25.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.25.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Fix: GST Compliance Check and GST Tracker no longer stop with a 'no portal username and password saved' error. A client with a saved login is used by default; if none is saved, the portal window opens and you type the login yourself."
+  "notes": "New: Firm Sync (Settings > Firm Sync) shares staff logins and the client list across all PCs of a firm, end-to-end encrypted. New: GST Tracker 'Sync all not-filed' re-checks only clients with a pending or not-filed return, plus 'Sync everyone' and a per-client refresh. Fix: activating a license on a new PC no longer fails with 'no such table: app_settings'."
 }
