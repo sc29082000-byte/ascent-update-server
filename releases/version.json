@@ -1,6 +1,6 @@
 {
-  "version": "2.25.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.25.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.26.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.26.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "New: Firm Sync (Settings > Firm Sync) shares staff logins and the client list across all PCs of a firm, end-to-end encrypted. New: GST Tracker 'Sync all not-filed' re-checks only clients with a pending or not-filed return, plus 'Sync everyone' and a per-client refresh. Fix: activating a license on a new PC no longer fails with 'no such table: app_settings'."
+  "notes": "GSTR-9 Workbench: choosing a folder now creates GSTR 1, GSTR 3B, GSTR 2B and GSTR 9 folders inside it, and each annual working is saved in its own folder. The GSTR-1 invoice-wise sheet gets a Recipient name column; if names are missing you are offered 'Fetch names' (GSTIN verification) before saving."
 }
