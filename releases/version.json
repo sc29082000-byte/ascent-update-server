@@ -1,6 +1,6 @@
 {
-  "version": "2.26.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.26.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.27.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.27.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-9 Workbench: choosing a folder now creates GSTR 1, GSTR 3B, GSTR 2B and GSTR 9 folders inside it, and each annual working is saved in its own folder. The GSTR-1 invoice-wise sheet gets a Recipient name column; if names are missing you are offered 'Fetch names' (GSTIN verification) before saving."
+  "notes": "GSTR-9 Workbench now exports your own GSTR-9 working template (Summary, ITC reco, table 8A, GSTR-9 Summary, GSTR-1, GSTR 3B, state sheet, Accounts, Input, Books), filled from the GSTR-1, GSTR-3B and GSTR-2B files. Books is an invoice-wise purchase register."
 }
