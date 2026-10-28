@@ -1,6 +1,6 @@
 {
-  "version": "2.29.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.29.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.30.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.30.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Home page now shows the GST Notice Tracker (overdue, due in 7 days, pending and the most urgent notices) with clickable summary cards and a quick-action grid. In Notice Tracker, Check GST portal lists every client; clients without a saved portal login are marked so you know to add it on the Clients page."
+  "notes": "Notice Tracker: Check GST portal now opens the real GST portal login in front of you with the username and password filled in. Type the CAPTCHA and press Login there; the app then reads Notices and Orders and downloads the PDFs in that same window."
 }
