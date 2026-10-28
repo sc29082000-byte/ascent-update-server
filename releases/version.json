@@ -1,6 +1,6 @@
 {
-  "version": "2.30.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.30.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.31.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.31.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Notice Tracker: Check GST portal now opens the real GST portal login in front of you with the username and password filled in. Type the CAPTCHA and press Login there; the app then reads Notices and Orders and downloads the PDFs in that same window."
+  "notes": "Quarterly (QRMP) GSTR-3B fix: a quarterly return now lands in its quarter-end month in the GSTR-3B Annual Report and the GSTR-9 Reconciliation Export instead of being left out. In the GSTR-9 Workbench the GSTR-9 Summary uses GSTR-3B turnover until books are entered, and GSTR-1 zips that share a file name are all listed."
 }
