@@ -1,6 +1,6 @@
 {
-  "version": "2.28.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.28.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.29.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.29.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Notice Tracker (GST suite): every notice and order client-wise with issue date, time given and reply due date, reply log, and the notice/reply/order PDFs kept with each entry. Check GST portal reads Notices and Orders and the case pages (DRC-01/DRC-01A replies, orders) and downloads the PDFs. Notices you have not opened stay unopened unless you tick the option."
+  "notes": "Home page now shows the GST Notice Tracker (overdue, due in 7 days, pending and the most urgent notices) with clickable summary cards and a quick-action grid. In Notice Tracker, Check GST portal lists every client; clients without a saved portal login are marked so you know to add it on the Clients page."
 }
