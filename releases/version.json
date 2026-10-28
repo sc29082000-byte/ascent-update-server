@@ -1,6 +1,6 @@
 {
-  "version": "2.27.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.27.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.28.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.28.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-9 Workbench now exports your own GSTR-9 working template (Summary, ITC reco, table 8A, GSTR-9 Summary, GSTR-1, GSTR 3B, state sheet, Accounts, Input, Books), filled from the GSTR-1, GSTR-3B and GSTR-2B files. Books is an invoice-wise purchase register."
+  "notes": "Notice Tracker (GST suite): every notice and order client-wise with issue date, time given and reply due date, reply log, and the notice/reply/order PDFs kept with each entry. Check GST portal reads Notices and Orders and the case pages (DRC-01/DRC-01A replies, orders) and downloads the PDFs. Notices you have not opened stay unopened unless you tick the option."
 }
