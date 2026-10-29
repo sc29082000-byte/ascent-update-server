@@ -1,6 +1,6 @@
 {
-  "version": "2.31.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.31.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.32.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.32.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "Quarterly (QRMP) GSTR-3B fix: a quarterly return now lands in its quarter-end month in the GSTR-3B Annual Report and the GSTR-9 Reconciliation Export instead of being left out. In the GSTR-9 Workbench the GSTR-9 Summary uses GSTR-3B turnover until books are entered, and GSTR-1 zips that share a file name are all listed."
+  "notes": "GSTR-9 Workbench: ITC claiming timeline. Add the GSTR-2B of the previous year and of the next year (April to October) next to this year's. ITC is sorted by invoice year against 2B year with the section 16(4) last date, in the ITC tab and as an ITC timeline sheet in the Excel. Buttons copy the 2B amounts into the previous-FY / next-FY ITC rows."
 }
