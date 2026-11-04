@@ -1,6 +1,6 @@
 {
-  "version": "2.34.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.34.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.35.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.35.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-2B Download (manual): choose a folder and a financial year, log in on the real GST portal yourself, and all 12 months of GSTR-2B JSON are saved in a \"FY 20xx-yy\" folder. Find it in the GST tab strip next to Portal Download, and on the GST Overview."
+  "notes": "GSTR-2B Download (manual): enter the GST portal username and password on the page (never saved), the app fills them into the portal and you type the CAPTCHA. All 12 months are saved in a \"FY 20xx-yy\" folder, named with the month first, e.g. April-GSTR2B-<GSTIN>-2025-26.json."
 }
