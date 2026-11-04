@@ -1,6 +1,6 @@
 {
-  "version": "2.35.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.35.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.36.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.36.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-2B Download (manual): enter the GST portal username and password on the page (never saved), the app fills them into the portal and you type the CAPTCHA. All 12 months are saved in a \"FY 20xx-yy\" folder, named with the month first, e.g. April-GSTR2B-<GSTIN>-2025-26.json."
+  "notes": "GSTR-9 Workbench Excel now has Input sheets for all three years (Input for FY 24-25 / 25-26 / 26-27) with a Remark filter \"Claimed for PY ...\", plus \"Carry forward Invoices\" (FY 25-26 invoices found in the FY 26-27 2B, for Table 8C) and \"CF inv of 24-25 in 25-26\"."
 }
