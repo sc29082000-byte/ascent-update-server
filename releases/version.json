@@ -1,6 +1,6 @@
 {
-  "version": "2.32.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.32.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.33.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.33.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-9 Workbench: ITC claiming timeline. Add the GSTR-2B of the previous year and of the next year (April to October) next to this year's. ITC is sorted by invoice year against 2B year with the section 16(4) last date, in the ITC tab and as an ITC timeline sheet in the Excel. Buttons copy the 2B amounts into the previous-FY / next-FY ITC rows."
+  "notes": "New: GSTR-2B Download (manual) under Portal Download. Choose a folder and a financial year, log in on the real GST portal yourself (username, password, CAPTCHA, OTP), and all 12 months April to March are saved as GSTR-2B JSON in a \"FY 20xx-yy\" folder. Months with no GSTR-2B on the portal are skipped."
 }
