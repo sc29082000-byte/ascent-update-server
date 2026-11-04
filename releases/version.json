@@ -1,6 +1,6 @@
 {
-  "version": "2.38.0",
-  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.38.0/Ascent.Compliance.OS.Setup.exe",
+  "version": "2.39.0",
+  "downloadUrl": "https://github.com/sc29082000-byte/ascent-update-server/releases/download/v2.39.0/Ascent.Compliance.OS.Setup.exe",
   "apkFileName": null,
-  "notes": "GSTR-9 Workbench: the GSTR-1 box now also reads the year-wise recipient-wise GSTR-1 Excel (all months in one file: B2B, credit/debit notes, B2CS, exports, nil, HSN) and picks up the recipient names from it. GSTR-2B Excel files work as before."
+  "notes": "GSTR-9 Workbench: the GSTR-2B box now also reads the old .xls format and a whole-year 2B file (quarterly 2B display, Apr-Mar in one file); documents are split into months by the supplier filing date."
 }
